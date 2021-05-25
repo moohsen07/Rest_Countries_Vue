@@ -1,0 +1,28 @@
+:root {
+  --background: hsl(207, 26%, 17%);
+  --background-elements: hsl(209, 23%, 22%);
+  --main-color: hsl(0, 0%, 100%);
+  --secondary-color: #ccc;
+  --font: 'Nunito Sans', sans-serif;
+}
+
+[theme="light"] {
+  --background: hsl(0, 0%, 98%);
+  --background-elements: hsl(0, 0%, 100%);
+  --main-color: hsl(200, 15%, 8%);
+  --secondary-color: #181818
+}
+
+body {
+  background: var(--background);
+  color: var(--main-color);
+  font-family: var(--font);
+  /* transition: 0.2s ease-in-out; */
+
+}
+
+ul {
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
+}
