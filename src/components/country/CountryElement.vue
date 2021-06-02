@@ -36,6 +36,7 @@ export default {
 img {
   width: 100%;
   height: 190px;
+  opject-fit : cover;
 }
 .country-name {
   font-weight: 800;
